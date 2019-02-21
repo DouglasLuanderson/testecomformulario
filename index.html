@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>formulario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<main>
+		<section class="first__Section">
+			<div class="first__SectionImage">
+				<img src="assets/jovens.jpg" class="first__SectionImageImg">
+			</div>
+			<div class="first__SectionForm first__contForm">
+				<div class="first__SectionFormTitle">
+					<h1>Welcome to Crowdrise</h1>
+					<p class="sectionFormParagraph1">Let's get you all set up so you can verify your nonprofit and begin setting up your first campaign!</p>
+					<p class="sectionFormParagraph2">Already have an account?<a class="SectionFormTitleLink" href="#"> Log in</a></p>
+				</div>
+				<form class="first__SectionForm">
+					<div class="first__SectionFormCont"> 
+						<div class="first__SectionFormCont1">
+							<label class="label__input" for="Fname">
+								First Name <input type="text" name="usuario" id="Fname" placeholder="Nome">
+							</label>					
+							<label class="label__input" for="Bphone">
+								Phone <input type="text" name="Phone" id="Bphone" placeholder="(xx) xxxxx-xxx">
+							</label> 
+							<label class="label__input" for="Bpass">
+								PassWord <input type="password" name="PassWord" id="Bpass">
+							</label> 
+						</div>
+						<div class="first__SectionFormCont2">
+							<label class="label__input" for="Lname">
+								Last Name <input type="text" name="Last Name" id="Lname" placeholder="Sobrenome">
+							</label>  
+							<label class="label__input" for="Bmail">
+								Email <input type="email" name="email" id="Bmail" placeholder="nome@exemplo.com">
+							</label>
+							<label class="label__input" for="Bpassw">
+								Confirm password<input type="password" name="Cpassword" id="Bpassw">
+							</label>
+						</div>
+					</div>
+					<label class="label__input" for="option1">
+						<input type="checkbox" name="option" id="option1"><span>Yes, I want to receive Crowdrise's emails</span>
+					</label>
+					<label class="label__input" for="option2">
+						<input type="checkbox" name="option" id="option2"><span>I agree to the <a href="#">Terms, Privacy</a> and <a href="#">Fess</a></span>
+					</label>
+					<button>Sign Up</button>
+					<p class="sectionFormParagraph3">Don't work for a nonprofit? <a href="#">You can still fundraise for one.</a></p>
+				</form>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
